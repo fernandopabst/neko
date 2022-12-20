@@ -5,7 +5,7 @@ services:
     restart: "unless-stopped"
     shm_size: "2gb"
     ports:
-      - "8080:8080"
+      - "9080:8080"
       - "51000-51100:52000-52100/udp"
     cap_add:
       - SYS_ADMIN
