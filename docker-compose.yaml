@@ -6,7 +6,7 @@ services:
     shm_size: "2gb"
     ports:
       - "9080:8080"
-      - "51000-51100:52000-52100/udp"
+      - "51000-51100:51000-51100/udp"
     cap_add:
       - SYS_ADMIN
     environment:
